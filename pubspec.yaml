@@ -44,8 +44,15 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-# Main icon image file path
- 
+  flutter_launcher_icons: ^0.14.2
+
+flutter_launcher_icons:
+  android: true                    # Enable icon generation for Android
+  ios: true                        # Enable icon generation for iOS
+  image_path: "assets/image/icon.png"  # Main icon image file path
+  adaptive_icon_background: "#FFFFFF"  # Solid background color
+  adaptive_icon_foreground: "assets/image/icon.png"
+  remove_alpha_channel: true  # Removes transparency
 
 
   # The "flutter_lints" package below contains a set of recommended lints to
