@@ -36,10 +36,22 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   carousel_slider: ^5.0.0
+  
+
+# Android adaptive icon foreground
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  flutter_launcher_icons: ^0.14.2
+
+flutter_launcher_icons:
+  android: true                    # Enable icon generation for Android
+  ios: true                        # Enable icon generation for iOS
+  image_path: "assets/image/icon.png"  # Main icon image file path
+  adaptive_icon_background: "#FFFFFF"
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
