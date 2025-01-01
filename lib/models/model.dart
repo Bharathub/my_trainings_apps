@@ -37,18 +37,6 @@ final List<TrainingSession> sessions = [
     locationShortDist: "5 miles",
   ),
   TrainingSession(
-    trainingName: "UI/UX Design for Mobile Apps",
-    trainer: "Bob Johnson",
-    location: "Chicago, IL",
-    locationShortDist: "20 miles",
-  ),
-  TrainingSession(
-    trainingName: "Backend Development with Node.js",
-    trainer: "Charlie Williams",
-    location: "Austin, TX",
-    locationShortDist: "30 miles",
-  ),
-  TrainingSession(
     trainingName: "Flutter Basics",
     trainer: "Smith",
     location: "Francisco, C",
