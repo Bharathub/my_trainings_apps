@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:my_trainings_app/model.dart';
+import 'package:my_trainings_app/models/model.dart';
 import 'package:my_trainings_app/widgets/bottom_sheet_widget.dart';
 import 'package:my_trainings_app/widgets/profile_avatar.dart';
 import '../widgets/vertical_divider.dart';

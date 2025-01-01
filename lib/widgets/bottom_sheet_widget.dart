@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_trainings_app/model.dart';
+import 'package:my_trainings_app/models/model.dart';
 
 enum SortBy { location, trainingName, trainer }
 

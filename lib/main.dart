@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_trainings_app/theme.dart';
-
+import 'package:my_trainings_app/theme/theme.dart';
 import 'screens/home_page.dart';
 
 void main() {
